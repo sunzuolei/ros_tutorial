@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+   <node pkg="ros_tutorial" type="hello_node" name="first_hello_node" output="screen">
+   		<param name="rate" value="4.4"/>
+   </node> 
+   <node pkg="ros_tutorial" type="timer_node" name="first_timer_node" output="screen">
+   		<param name="timer_a_duration" value="0.2"/>
+   		<param name="timer_b_duration" value="1.0"/>
+   </node>
+</launch>
