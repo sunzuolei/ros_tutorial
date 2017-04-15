@@ -1,7 +1,0 @@
-plugin_test
-/home/panda/plugin_ws/devel/.private/plugin_test/lib/libpolygon_plugins.so /home/panda/plugin_ws/devel/lib/libpolygon_plugins.so
-/home/panda/plugin_ws/devel/.private/plugin_test/lib/plugin_test/polygon_loader_v1 /home/panda/plugin_ws/devel/lib/plugin_test/polygon_loader_v1
-/home/panda/plugin_ws/devel/.private/plugin_test/lib/plugin_test/polygon_loader /home/panda/plugin_ws/devel/lib/plugin_test/polygon_loader
-/home/panda/plugin_ws/devel/.private/plugin_test/lib/pkgconfig/plugin_test.pc /home/panda/plugin_ws/devel/lib/pkgconfig/plugin_test.pc
-/home/panda/plugin_ws/devel/.private/plugin_test/share/plugin_test/cmake/plugin_testConfig.cmake /home/panda/plugin_ws/devel/share/plugin_test/cmake/plugin_testConfig.cmake
-/home/panda/plugin_ws/devel/.private/plugin_test/share/plugin_test/cmake/plugin_testConfig-version.cmake /home/panda/plugin_ws/devel/share/plugin_test/cmake/plugin_testConfig-version.cmake

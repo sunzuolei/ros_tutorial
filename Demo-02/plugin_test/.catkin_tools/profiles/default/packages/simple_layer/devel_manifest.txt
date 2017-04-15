@@ -1,5 +1,0 @@
-simple_layer
-/home/panda/plugin_ws/devel/.private/simple_layer/lib/libsimple_layer.so /home/panda/plugin_ws/devel/lib/libsimple_layer.so
-/home/panda/plugin_ws/devel/.private/simple_layer/lib/pkgconfig/simple_layer.pc /home/panda/plugin_ws/devel/lib/pkgconfig/simple_layer.pc
-/home/panda/plugin_ws/devel/.private/simple_layer/share/simple_layer/cmake/simple_layerConfig.cmake /home/panda/plugin_ws/devel/share/simple_layer/cmake/simple_layerConfig.cmake
-/home/panda/plugin_ws/devel/.private/simple_layer/share/simple_layer/cmake/simple_layerConfig-version.cmake /home/panda/plugin_ws/devel/share/simple_layer/cmake/simple_layerConfig-version.cmake
