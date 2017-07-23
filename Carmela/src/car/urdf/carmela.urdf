@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+
+<robot name="carmela">
+
+<link name="base_link">
+  <visual>
+    <geometry>
+     <box size="0.2 .3 .1"/>
+    </geometry>
+    <origin rpy="0 0 0" xyz="0 0 0.05"/>
+    <material name="black">
+      <color rgba="0 0 0 1"/>
+    </material>
+  </visual>
+</link>
+
+<link name="base2_link">
+  <visual>
+    <geometry>
+     <cylinder length="0.005" radius="0.18"/>
+    </geometry>
+    <origin rpy="0 0 0" xyz="0 0 0.1"/>
+    <material name="black">
+      <color rgba="0 0 0 1"/>
+    </material>
+  </visual>
+</link>
+
+<link name="laser">
+ <visual>
+   <geometry>
+    <box size=".1 .1 .1"/>
+   </geometry>
+   <origin rpy ="0 0 0" xyz="0 0 .105"/>
+   <material name="red">
+    <color rgba="0.8 0 0 1"/>
+   </material>
+ </visual>
+</link>
+
+<link name="wheel_1">
+  <visual>
+   <geometry>
+    <cylinder length="0.05" radius="0.05"/>
+   </geometry>
+   <origin rpy="0 1.57 0" xyz="0.1 0.1 0"/>
+   <material name="blue">
+    <color rgba="0 0 .8 1"/>
+   </material>
+  </visual>
+</link>
+
+<link name="wheel_2">
+  <visual>
+   <geometry>
+    <cylinder length="0.05" radius="0.05"/>
+   </geometry>
+   <origin rpy="0 1.57 0" xyz="-0.1 0.1 0"/>
+   <material name="blue">
+    <color rgba="0 0 .8 1"/>
+   </material>
+  </visual>
+</link>
+
+<link name="wheel_3">
+  <visual>
+   <geometry>
+    <cylinder length="0.05" radius="0.05"/>
+   </geometry>
+   <origin rpy="0 1.57 0" xyz="0.1 -0.1 0"/>
+   <material name="blue">
+    <color rgba="0 0 .8 1"/>
+   </material>
+  </visual>
+</link>
+
+<link name="wheel_4">
+  <visual>
+   <geometry>
+    <cylinder length="0.05" radius="0.05"/>
+   </geometry>
+   <origin rpy="0 1.57 0" xyz="-0.1 -0.1 0"/>
+   <material name="blue">
+    <color rgba="0 0 .8 1"/>
+   </material>
+  </visual>
+</link>
+
+<joint name="joint_base_wheel1" type="fixed">
+  <parent link ="base_link"/>
+  <child link = "wheel_1"/>
+</joint>
+
+<joint name="joint_base_wheel2" type="fixed">
+  <parent link ="base_link"/>
+  <child link ="wheel_2"/>
+</joint>
+
+<joint name="joint_base_wheel3" type="fixed">
+ <parent link ="base_link"/>
+ <child link ="wheel_3"/>
+</joint>
+
+<joint name="joint_base_wheel4" type="fixed">
+ <parent link ="base_link"/>
+ <child link ="wheel_4"/>
+</joint>
+
+<joint name="joint_base_base2" type="fixed">
+ <parent link ="base_link"/>
+ <child link ="base2_link"/>
+</joint>
+
+<joint name="joint_base2_laser" type="fixed">
+ <parent link ="base2_link"/>
+ <child link ="laser"/>
+</joint>
+
+</robot>
