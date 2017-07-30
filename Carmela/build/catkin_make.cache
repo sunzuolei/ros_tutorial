@@ -1,2 +1,0 @@
-car
--DCATKIN_DEVEL_PREFIX=/home/yp2/Desktop/carmela/devel -DCMAKE_INSTALL_PREFIX=/home/yp2/Desktop/carmela/install -G Unix Makefiles
